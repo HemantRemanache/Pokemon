@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practise_set_chapter6_q4</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .NavBar_baseOption {
+            display: flex;            
+            justify-content: space-between;
+            border: 3px solid blue;
+height:5.5vh
+        }
+
+        .navBarOption {
+            display: inline-block;
+            padding: 10px;
+            border: 1px ridge red;
+            align-content: center;
+        }
+        .navBarImage{
+            padding: 2px;
+            width: 2em;
+            height: 2em;
+        }
+        .withaBackGroundImage{
+            height :13vh;
+            background-image: url("./pokemon.jpg");
+        }
+        .ProfileContainer{
+            display: flex;
+            height : 81vh
+        }
+        .profiles{
+            display: flex;
+            width: 33.33vw;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            border: 2px solid grey;
+        }
+        .centerOfProfiles{
+            display: flex;
+            height:20em;
+            width: 20em;
+            border: 2px solid red;
+        }
+        .centerOfProfiles2{
+            display: flex;
+            height:20em;
+            width: 30em;
+            border: 2px solid red;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="NavBar_baseOption"><div>
+        <img class="navBarImage" src="./clock.png" alt="">
+        </div>
+        <div>
+            <ul class="navBarOption">About</ul>
+            <ul class="navBarOption">Contact</ul>
+            <ul class="navBarOption">Profile</ul>
+        </div>
+    </nav>
+    <div class="withaBackGroundImage">
+    </div>
+    <div class="ProfileContainer">
+        <div class="profiles">
+            <div class="centerOfProfiles">
+                <img src="./Charmander.gif" alt="">
+            </div>
+        </div>
+        <div class="profiles">            
+            <div class="centerOfProfiles"> 
+                <img src="./charmeleon.gif" alt=""></div>
+        </div>
+        <div class="profiles">    
+                <div class="centerOfProfiles2"> 
+                    <img src="./charizard.png" alt=""></div>
+        </div>
+    </div>
+</body>
+
+</html>
